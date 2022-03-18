@@ -1,0 +1,41 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.first-section {
+    display: flex;
+}
+.orange-color {
+    color: orange;
+}
+
+.sixty-percent {
+    padding-left: 50px;
+    width: 50%;
+}
+.fourty-percent {
+    padding: 50px;
+    width: 30%;
+}
+
+.heading-line {
+    padding-left: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: tomato;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
