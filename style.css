@@ -6,6 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 
 .first-section {
     display: flex;
@@ -38,4 +41,23 @@ h1 {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.secon-h2 {
+    text-align: center;
+}
+.second-section {
+    display: flex;
+    margin: 10px 100px;
+}
+.second-img {
+    width: 50%;
+}
+.card {
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    height: 400px;
+    width: 300px;
 }
